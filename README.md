@@ -40,11 +40,17 @@ There are two other command write and erase, the erase and read command is 10 ch
 
 Based on the arduino program, we can write,read,erase some bytes in 28c256 by arduino uno, But it can't work efficiencily
 
-For example, we have to write bytes mannualy, we can't burn a binary file to 28c256 by arduino program alone
+For example, we have to write bytes mannualy, we can't burn a binary file to 28c256 by arduino program
 
 So I create the unopro.c to read binary file from PC then send data to arduino uno to complete the program progress
 
-###### compile
+###### Step1:compile
 
 gcc unopro.c -o unoPro
+
+###### Step2:connect arduino
+
+unoPro   9600   /dev/ttyACM0
+
+###### Step3:usage
 
