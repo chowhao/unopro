@@ -10,7 +10,7 @@ It can program the 28c256 eeprom chip right now
 ##### schematic
 The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard, the detail is as flllows
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch.png" width="450" height="270">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch.png" width="400" height="200">
 
 #### Second Part (Software)
 
