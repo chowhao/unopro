@@ -1,9 +1,12 @@
 ### Introduce
 
-Command line to program 28cxx eeprom by arduino uno
+A command line to program 28cxx eeprom by arduino uno
+
 Sometimes, we need to burn file to eeprom, burn the tool like (tl886 ii plus) is expensive, we can make a programmer by ourselves
+
 So, I choose the arduino uno to make a eeprom programmer, this is a command line tool to program 28cxx eeprom chip by arduino uno
-It can program the 28c256 eeprom chip right now
+
+It can program the 28c256 eeprom chip right now !!!
 
 #### First Part (Hardware)
 
@@ -15,8 +18,10 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 #### Second Part (Software)
 
 ##### arduino program
-The receive.ino is a ino file for arduino uno, compile the receive.ino and upload to your arduino uno, the open serial monitor at 9600 baurate
-Type 0000000020 plus enter, you can see some output in the serial monitor, 00 is the read command, 0000 is orginal address, 0010 is byte number
+The receive.ino is a file for arduino uno, compile it and upload to your arduino uno, the open serial monitor at 9600 baurate
+
+Type 0000000020 and send, you can see some output in monitor,  00 is the read command,  0000 is orginal address,  0010 is byte number
+
 It means read 0x0020 bytes from orginal address 0x0000, the output is as flolows (read-first-no.png)
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="450" height="220">
