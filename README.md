@@ -22,6 +22,8 @@ There are three command in all:
 
 00 --> read,  example: 0001000010 --> read 0x0010 bytes from orginal address 0x0100
 
-01 --> write
+01 --> write, example 0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginaal address 0x0000
 
-0e --> erase
+0e --> erase, example 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000
+
+
