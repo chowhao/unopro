@@ -54,4 +54,6 @@ unoPro   9600   /dev/ttyACM0
 
 ###### Step3:usage
 
+The usage is shown in follow picture
 
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="450" height="220">
