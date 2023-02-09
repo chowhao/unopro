@@ -57,3 +57,8 @@ unoPro   9600   /dev/ttyACM0
 The usage is shown in follow picture
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="500" height="500">
+
+### Bugs
+
+After erase and load command, there is some error in dump output command, you can see in usage.png
+
