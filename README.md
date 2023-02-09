@@ -11,6 +11,7 @@ It can program the 28c256 eeprom chip right now !!!
 #### First Part (Hardware)
 
 ##### schematic
+
 The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard, the detail is as flllows
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/sch.png" width="400" height="200">
@@ -18,6 +19,7 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 #### Second Part (Software)
 
 ##### arduino program
+
 The receive.ino is a file for arduino uno, compile it and upload to your arduino uno, the open serial monitor at 9600 baurate
 
 Type 0000000020 and send, you can see some output in monitor,  00 is the read command,  0000 is orginal address,  0010 is byte number
@@ -35,11 +37,14 @@ There are two other command write and erase, the erase and read command is 10 ch
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="400" height="200">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="400" height="200"/>
 
 ##### c program
-The unopro.c is a single c file, it work as a command line tool, it get user input and send or read message from arduino 
-Althougth, we can program 28c256 from arduino serial monitor, but it can't burn a binary file (such as a.bin) to eeprom.
+
+Based on the arduino program, we can write,read,erase some bytes in 28c256 by arduino uno, But it can't work efficiencily
+
+For example, we have to write bytes mannualy, we can't burn a binary file to 28c256 by arduino program alone
+
 So I create the unopro.c to read binary file from PC then send data to arduino uno to complete the program progress
 
-#### compile
+###### compile
 
 gcc unopro.c -o unoPro
 
