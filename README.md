@@ -15,7 +15,7 @@ Type 0000000100 plus enter, you can see some output, the command 0000000100 mean
 
 00 is read command 0000 is orginal address 0100 is byte number, the address and number should be hex format without prefix
 
-![image](https://github.com/2076625923/arduino-programmer/blob/main/read.png)
+![image](https://github.com/2076625923/arduino-programmer/blob/main/dump.png)
 
 ### comamnd line 
 There are three command in all:
