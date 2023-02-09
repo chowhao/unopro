@@ -15,6 +15,8 @@ Type 0000000100 plus enter, you can see some output, the command 0000000100 mean
 
 00 is read command 0000 is orginal address 0100 is byte number, the address and number should be hex format without prefix
 
+read 0x0020 bytes from 0x0000, the output is as flolows
+
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="300" height="180">
 
 ### comamnd line 
@@ -26,5 +28,5 @@ There are three command in all:
 
 0e --> erase, example 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000
 
-
+read 0x0020 bytes from 0x0000          write 0x1fh, 0x2fh, 0x3fh, 0x4fh to 0x0000         erase 0x0010 bytes from 0x00000
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="270" height="180"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="270" height="180"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="270" height="180"/>
