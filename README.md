@@ -27,4 +27,4 @@ There are three command in all:
 0e --> erase, example 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000
 
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="300" height="180"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="300" height="180"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="300" height="180"/>
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="270" height="180"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="270" height="180"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="270" height="180"/>
