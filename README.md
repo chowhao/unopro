@@ -21,8 +21,7 @@ It means read 0x0020 bytes from orginal address 0x0000, the output is as flolows
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="450" height="220">
 
-##### comamnd
-00 --> read,  example: 0000000010 --> read 0x0010 bytes from orginal address 0x0000 (Fig1, read-first-no.png)
+There are two other command write and erase, the erase and read command is 10 chars without '\n', the write command is more than 8 chars (at least 1 byte)
 01 --> write, example 0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginaal address 0x0000 (Fig2, read-after-write.png)
 0e --> erase, example 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000 (Fig3, read-after-erase.png)
 
