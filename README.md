@@ -30,7 +30,7 @@ the output is as flolows (read-first-no.png)
 
 0e --> erase, example 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000 (Fig3, read-after-erase.png)
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="280" height="200"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="280" height="200"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="280" height="200"/>
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="270" height="200"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="270" height="200"><img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="270" height="200"/>
 
 ### Third Part 
 
