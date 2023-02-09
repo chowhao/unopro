@@ -1,13 +1,14 @@
 ### Introduce
 
 Command line to program 28cxx eeprom by arduino uno
-
-This is a command line tool to program 28cxx eeprom chip by arduino uno, It can program the 28c256 eeprom chip rightly now
+Sometimes, we need to burn file to eeprom, burn the tool like (tl886 ii plus) is expensive, we can make a programmer by ourselves
+So, I choose the arduino uno to make a eeprom programmer, this is a command line tool to program 28cxx eeprom chip by arduino uno
+It can program the 28c256 eeprom chip right now
 
 #### First Part
 
 ##### schematic
-The schematic is as flllows
+The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard, the detail is as flllows
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/sch.png" width="450" height="270">
 
 #### Second Part
@@ -32,3 +33,10 @@ the output is as flolows (read-first-no.png)
 
 #### c program
 The unopro.c is a single c file, it work as a command line tool, it get user input and send or read message from arduino 
+Althougth, we can program 28c256 from arduino serial monitor, but it can't burn a binary file (such as a.bin) to eeprom.
+So I create the unopro.c to read binary file from PC then send data to arduino uno to complete the program progress
+
+#### compile
+
+gcc unopro.c -o unoPro
+
