@@ -60,5 +60,8 @@ The usage is shown in follow picture
 
 ### Bugs
 
-After erase and load command, there is some error in dump output command, you can see in usage.png
+After erase and load command, there is some error the first line in dump command output, as you can see in the usage.png
 
+### Reference
+
+https://github.com/beneater/eeprom-programmer
