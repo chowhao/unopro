@@ -164,6 +164,7 @@ void loop(){
 
           // read some bytes
           ReadPage(orga, size);
+          Serial.print("Done!");
 
           break;
         
