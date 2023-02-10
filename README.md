@@ -14,7 +14,8 @@ It can program the 28c256 eeprom chip right now !!!
 
 The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard, the detail is as flllows
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch.png" width="400" height="200">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch.png" width="400" height="250">                                                  <img src="https://github.com/2076625923/arduino-programmer/blob/main/hardware.jpg" width="400" height="250">
+
 
 #### Second Part (Software)
 
@@ -56,7 +57,7 @@ unoPro   9600   /dev/ttyACM0
 
 The usage is shown in follow pictures
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="380" height="500">                                               <img src="https://github.com/2076625923/arduino-programmer/blob/main/final.png" width="440" height="500">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="380" height="450">                                               <img src="https://github.com/2076625923/arduino-programmer/blob/main/final.png" width="440" height="450">
 
 ### Bugs
 
