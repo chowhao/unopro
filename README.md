@@ -2,7 +2,7 @@
 
 A command line to program 28cxx eeprom by arduino uno
 
-Sometimes, we need to burn file to eeprom, burn the tool like (tl886 ii plus) is expensive, we can make a programmer by ourselves
+Sometimes, we need to burn file to eeprom, the burn tool like (tl886 ii plus) is expensive, we can make a programmer by ourselves
 
 So, I choose the arduino uno to make a eeprom programmer, this is a command line tool to program 28cxx eeprom chip by arduino uno
 
