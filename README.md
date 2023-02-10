@@ -26,7 +26,7 @@ Type 0000000020 and send, you can see some output in monitor,  00 is the read co
 
 It means read 0x0020 bytes from orginal address 0x0000, the output is as flolows (read-first-no.png)
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="450" height="220">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="400" height="140">
 
 There are two other command write and erase, the erase and read command is 10 chars without '\n', the write command is more than 8 chars
 
@@ -34,7 +34,7 @@ There are two other command write and erase, the erase and read command is 10 ch
 
 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000, the result is read-after-erase.png
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="400" height="200">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="400" height="200"/>
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="400" height="150">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="400" height="150"/>
 
 ##### c program
 
