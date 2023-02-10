@@ -1,12 +1,12 @@
 ### Introduce
 
-A command line to program 28cxx eeprom by arduino uno
+A command line tool to program 28cxx series eeprom by arduino uno
 
-Sometimes, we need to burn file to eeprom, the burn tool like (tl886 ii plus) is expensive, we can make a programmer by ourselves
+Sometimes, we need to burn a binary file to eeprom, the burn tool like (tl886 ii plus) is a little expensive, so we can make a programmer by ourselves
 
-So, I choose the arduino uno to make a eeprom programmer, this is a command line tool to program 28cxx eeprom chip by arduino uno
+I choose the arduino uno to make a eeprom programmer to program 28cxx series eeprom chip
 
-It can program the 28c256 eeprom chip right now !!!
+It can program the 28c256 eeprom chip perfectly right now !!!
 
 #### First Part (Hardware)
 
@@ -21,9 +21,9 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 
 ##### arduino program
 
-The receive.ino is a file for arduino uno, compile it and upload to your arduino uno, the open serial monitor at 9600 baurate
+The receive.ino is for arduino uno, compile it and upload to your arduino uno, then open serial monitor at 9600 baurate
 
-Type 0000000020 and send, you can see some output in monitor,  00 is the read command,  0000 is orginal address,  0010 is byte number
+Type 0000000020 and send, you can see some output in serial monitor,  00 is the read command,  0000 is orginal address,  0020 is byte number
 
 It means read 0x0020 bytes from orginal address 0x0000, the output is as flolows (read-first-no.png)
 
@@ -39,11 +39,11 @@ There are two other command write and erase, the erase and read command is 10 ch
 
 ##### c program
 
-Based on the arduino program, we can write,read,erase some bytes in 28c256 by arduino uno, But it can't work efficiencily
+Based on the arduino program, we can write,read,erase some bytes in 28c256 by arduino uno, But it can't work very efficiencily
 
-For example, we have to write bytes mannualy, we can't burn a binary file to 28c256 by arduino program
+For example, we have to write bytes manually, we can't burn a binary file to 28c256 by standalone arduino program
 
-So I create the unopro.c to read binary file from PC then send data to arduino uno to complete the program progress
+So I create the unopro.c to read binary file from PC, then send data to arduino uno to complete the program progress
 
 ###### Step1:compile
 
