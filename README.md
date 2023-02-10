@@ -54,7 +54,7 @@ unoPro   9600   /dev/ttyACM0
 
 ###### Step3:usage
 
-The usage is shown in follow picture
+The usage is shown in follow pictures
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="380" height="500">                                               <img src="https://github.com/2076625923/arduino-programmer/blob/main/final.png" width="440" height="500">
 
