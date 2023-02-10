@@ -29,7 +29,7 @@ It means read 0x0020 bytes from orginal address 0x0000, the output is as flolows
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="400" height="140">
 
-There are two other command write and erase, the erase and read command is 10 chars without '\n', the write command is more than 8 chars
+There are two other commands write and erase
 
 0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginal address 0x0000 to eeprom, the result is read-after-write.png
 
