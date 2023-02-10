@@ -56,11 +56,15 @@ unoPro   9600   /dev/ttyACM0
 
 The usage is shown in follow picture
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="500" height="600">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="400" height="600">  <img src="https://github.com/2076625923/arduino-programmer/blob/main/final.png" width="400" height="600">
 
 ### Bugs
 
 After erase and load command, there is some error the first line in dump command output
+
+### Update
+
+Now, I have fix above bugs it can work perfectly, as shown in final picture
 
 ### Reference
 
