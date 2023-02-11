@@ -55,9 +55,7 @@ unoPro   9600   /dev/ttyACM0
 
 ###### Step3:usage
 
-The are dump,write,erase,load,help commands
-
-####### Example usage
+The are dump,write,erase,load,help commands, some usage is as follows
 
 dump 0000 0040
 
