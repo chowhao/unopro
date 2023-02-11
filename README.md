@@ -45,7 +45,7 @@ So I create the unopro.c to read binary file from PC, then send data to arduino 
 ###### compile
 ```   gcc unopro.c -o unoPro   ```
 ###### connect
-```   unoPro   9600   /dev/ttyACM0   ```
+```   unoPro 9600 /dev/ttyACM0   ```
 ###### usage
 
 The are dump,write,erase,load,help commands, some usage is as follows
