@@ -12,11 +12,11 @@ It can program the 28c256 eeprom chip perfectly right now !!!
 
 ##### schematic
 
-The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard, the detail is as flllows
+The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/sch/sch.png" width="400" height="150">   
 
-Schematic[Markdown语法](https://github.com/2076625923/arduino-programmer/blob/main/sch/hd.jpg)            
+[hardware](https://github.com/2076625923/arduino-programmer/blob/main/sch/hd.jpg)            
 
 
 #### Second Part (Software)
@@ -27,9 +27,7 @@ The receive.ino is for arduino uno, compile it and upload to your arduino uno, t
 
 Type 0000000020 and send, you can see some output in serial monitor,  00 is the read command,  0000 is orginal address,  0020 is byte number
 
-It means read 0x0020 bytes from orginal address 0x0000, the output is as flolows (read-first-no.png)
-
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-first-no.png" width="400" height="140">
+It means read 0x0020 bytes from orginal address 0x0000, the output is [here](https://github.com/2076625923/arduino-programmer/blob/main/png/dump.png)
 
 There are two other commands write and erase
 
@@ -37,7 +35,7 @@ There are two other commands write and erase
 
 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000, the result is read-after-erase.png
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-write.png" width="400" height="150">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/read-after-erase.png" width="400" height="150"/>
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="400" height="150">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="400" height="150"/>
 
 ##### c program
 
@@ -51,19 +49,19 @@ So I create the unopro.c to read binary file from PC, then send data to arduino 
 
 gcc unopro.c -o unoPro
 
-###### Step2:connect to arduino uno
+###### Step2:connect to arduino
 
 unoPro   9600   /dev/ttyACM0
 
-###### Step3:how to use this tool
+###### Step3:usage
 
 The usage is shown in follow pictures
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/usage.png" width="380" height="450">                                               <img src="https://github.com/2076625923/arduino-programmer/blob/main/final.png" width="440" height="450">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png" width="500" height="400">
 
 ### Bugs
 
-After erase and load command, there is some error the first line in dump command output
+After erase and load command, there is some error the first line in dump command output [bugs]https://github.com/2076625923/arduino-programmer/blob/main//png/bug.png
 
 ### Update
 
