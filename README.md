@@ -21,7 +21,7 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 
 #### Second Part (Software)
 
-##### arduino program
+##### Arduino program
 
 The receive.ino is for arduino uno, compile it and upload to your arduino uno, then open serial monitor at 9600 baurate
 
@@ -37,7 +37,7 @@ There are two other commands write and erase
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="400" height="150">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="400" height="150"/>
 
-##### c program
+##### C program
 
 Based on the arduino program, we can write,read,erase some bytes in 28c256 by arduino uno, But it can't work very efficiencily
 
