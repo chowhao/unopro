@@ -26,9 +26,9 @@ It means read 0x0020 bytes from orginal address 0x0000, the output is [here](htt
 
 There are two other commands write and erase
 
-0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from address 0x0000 to at28c256 eeprom, the result after write those bytes is the png/write.png
+0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from address 0x0000 to at28c256 eeprom, the result after write those bytes is the png/write.png (the left below picture)
 
-0e00000010 --> erase 0x0010 bytes from address 0x0000 to 0x0010, the result after erase is the png/erase.png
+0e00000010 --> erase 0x0010 bytes from address 0x0000 to 0x0010, the result after erase is the png/erase.png (the right below picture)
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="300" height="150">                  <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="300" height="150">
 
