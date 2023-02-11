@@ -32,7 +32,7 @@ There are two other commands write and erase
 
 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000, the result is png/erase.png
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="400" height="150">                  <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="400" height="150">
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="300" height="150">                  <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="300" height="150">
 
 ##### C program
 
