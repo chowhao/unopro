@@ -14,7 +14,7 @@ It can program the 28c256 eeprom chip perfectly right now !!!
 
 The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch/sch.png" width="500" height="200">   
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch/sch.png" width="500" height="240">   
 
 [hardware](https://github.com/2076625923/arduino-programmer/blob/main/sch/hd.jpg)            
 
@@ -57,13 +57,13 @@ unoPro   9600   /dev/ttyACM0
 
 The are dump,write,erase,load,help commands, some usage is as follows
 
-dump 0000 0040  ----> read 0x0040 bytes from orginal address 0x0000
+dump 0000 0040   ----> read 0x0040 bytes from orginal address 0x0000
 
 write 0100 1f2f3f4f5f   ----> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginal address 0x0100
 
 erase 0020 0100   ----> erase 0x0100 bytes from orginal address 0x0020
 
-load 0100 a.bin   -----> write a.bin to at28c256 from orginal address 0x0100
+load 0100 a.bin   ----> write a.bin to at28c256 from orginal address 0x0100
 
 [more](https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png)
 
