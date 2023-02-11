@@ -4,9 +4,8 @@ A command line tool to program 28cxx series eeprom by arduino uno
 
 Sometimes, we need to burn a binary file to eeprom, the burn tool like (tl886 ii plus) is a little expensive, so we can make a programmer by ourselves
 
-I choose the arduino uno to make a eeprom programmer to program 28cxx series eeprom chip
-
-It can program the 28c256 eeprom chip perfectly right now !!!
+I choose the arduino uno to make a eeprom programmer to program 28cxx series eeprom chip,
+it can program the 28c256 eeprom chip perfectly right now !!!
 
 #### First Part (Hardware)
 
@@ -28,9 +27,9 @@ It means read 0x0020 bytes from orginal address 0x0000, the output is [here](htt
 
 There are two other commands write and erase
 
-0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginal address 0x0000 to eeprom, the result is png/write.png
+0100001f2f3f4f --> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from 0x0000 to eeprom, the result is png/write.png
 
-0e00000010 --> erase 0x0010 bytes from orginal address 0x0000, the result is png/erase.png
+0e00000010 --> erase 0x0010 bytes from address 0x0000, the result is png/erase.png
 
 <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="300" height="150">                  <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="300" height="150">
 
