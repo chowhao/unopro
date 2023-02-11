@@ -60,7 +60,7 @@ The are dump,write,erase,load,help commands, some usage is as follows
 
 ### Bugs
 
-After erase and load command, there is some error chars in the first dump command output line [bugs](https://github.com/2076625923/arduino-programmer/blob/main//png/bugs.png)
+After erase and load command, there is some error chars in the first line of dump command output [bugs](https://github.com/2076625923/arduino-programmer/blob/main//png/bugs.png)
 
 ### Update
 
