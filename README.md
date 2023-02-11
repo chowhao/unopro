@@ -43,24 +43,20 @@ For example, we have to write bytes manually, we can't burn a binary file to 28c
 So I create the unopro.c to read binary file from PC, then send data to arduino uno to complete the program progress
 
 ###### compile
-```
-gcc unopro.c -o unoPro
-```
+```   gcc unopro.c -o unoPro   ```
 ###### connect
-
-unoPro   9600   /dev/ttyACM0
-
+```   unoPro   9600   /dev/ttyACM0   ```
 ###### usage
 
 The are dump,write,erase,load,help commands, some usage is as follows
 
-dump 0000 0040   ----> read 0x0040 bytes from orginal address 0x0000
+```    dump 0000 0040   ```  ----> read 0x0040 bytes from orginal address 0x0000
 
-write 0100 1f2f3f4f5f   ----> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginal address 0x0100
+```    write 0100 1f2f3f4f5f    ```  ----> write 0x1fh, 0x2fh, 0x3fh, 0x4fh from orginal address 0x0100
 
-erase 0020 0100   ----> erase 0x0100 bytes from orginal address 0x0020
+```    erase 0020 0100    ```  ----> erase 0x0100 bytes from orginal address 0x0020
 
-load 0100 a.bin   ----> write a.bin to at28c256 from orginal address 0x0100
+```    load 0100 a.bin    ```  ----> write a.bin to at28c256 from orginal address 0x0100
 
 [more usage](https://github.com/2076625923/arduino-programmer/blob/main/png/fix.png)
 
