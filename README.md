@@ -55,9 +55,19 @@ unoPro   9600   /dev/ttyACM0
 
 ###### Step3:usage
 
-The usage is shown in follow pictures
+The are dump,write,erase,load,help commands
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png" width="500" height="400">
+####### Example usage
+
+dump 0000 0040
+
+write 0100 1f2f3f4f5f
+
+erase 0020 0100
+
+load 0100 a.bin
+
+[more](https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png)
 
 ### Bugs
 
