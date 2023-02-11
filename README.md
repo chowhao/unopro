@@ -16,9 +16,6 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 
 ![Alt](sch/sch.png)
 
-[hardware](sch/hd.jpg)            
-
-
 #### Second Part (Software)
 
 ##### Arduino program
