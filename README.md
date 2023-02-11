@@ -45,15 +45,15 @@ For example, we have to write bytes manually, we can't burn a binary file to 28c
 
 So I create the unopro.c to read binary file from PC, then send data to arduino uno to complete the program progress
 
-###### Step1:compile unopro code
+###### compile
 
 gcc unopro.c -o unoPro
 
-###### Step2:connect to arduino
+###### connect
 
 unoPro   9600   /dev/ttyACM0
 
-###### Step3:usage
+###### usage
 
 The are dump,write,erase,load,help commands, some usage is as follows
 
