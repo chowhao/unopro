@@ -26,8 +26,7 @@ It means read 0x0020 bytes from orginal address 0x0000, the output is [here](htt
 
 There are two other commands write and erase
 
-0100001f2f3f4f --> write 1fh, 2fh, 3fh, 4fh from 0x0000 to eeprom,
-the result is png/write.png
+0100001f2f3f4f --> write 1fh, 2fh, 3fh, 4fh from 0x0000 to eeprom, the result is the png/write.png
 
 0e00000010 --> erase 0x0010 bytes from address 0x0000, the result is png/erase.png
 
