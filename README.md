@@ -62,7 +62,7 @@ erase 0020 0100   ----> erase 0x0100 bytes from orginal address 0x0020
 
 load 0100 a.bin   ----> write a.bin to at28c256 from orginal address 0x0100
 
-[more usage](https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png)
+[more usage](png/fix.png)
 
 ### Bugs
 
