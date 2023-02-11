@@ -21,14 +21,12 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 
 The receive.ino is for arduino uno, compile it and upload to your arduino uno, then open serial monitor at 9600 baurate
 
-Type 0000000020 and send, you can see some output in serial monitor,  00 is the read command,  0000 is orginal address,  0020 is byte number
-
+Type 0000000020 and send, you can see some output in serial monitor,  00 is the read command,  0000 is orginal address,  0020 is byte number,
 It means read 0x0020 bytes from orginal address 0x0000, the output is [here](https://github.com/2076625923/arduino-programmer/blob/main/png/dump.png)
 
 There are two other commands write and erase
 
-0100001f2f3f4f --> write 1fh, 2fh, 3fh, 4fh from 0x0000 to eeprom
-
+0100001f2f3f4f --> write 1fh, 2fh, 3fh, 4fh from 0x0000 to eeprom,
 the result is png/write.png
 
 0e00000010 --> erase 0x0010 bytes from address 0x0000, the result is png/erase.png
