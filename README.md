@@ -51,9 +51,7 @@ gcc unopro.c -o unoPro
 
 ###### connect
 
-'''text
 unoPro   9600   /dev/ttyACM0
-'''
 
 ###### usage
 
