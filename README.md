@@ -14,7 +14,7 @@ It can program the 28c256 eeprom chip perfectly right now !!!
 
 The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard
 
-![Alt](sch/sch.png)
+![image](sch/sch.png)
 
 #### Second Part (Software)
 
