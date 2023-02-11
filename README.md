@@ -16,7 +16,7 @@ The schematic is very simple, it just consists of two 74hc595 chip, you can even
 
 ![Alt](sch/sch.png)
 
-[hardware](https://github.com/2076625923/arduino-programmer/blob/main/sch/hd.jpg)            
+[hardware](sch/hd.jpg)            
 
 
 #### Second Part (Software)
@@ -65,7 +65,7 @@ erase 0020 0100   ----> erase 0x0100 bytes from orginal address 0x0020
 
 load 0100 a.bin   ----> write a.bin to at28c256 from orginal address 0x0100
 
-[more](https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png)
+[more usage](https://github.com/2076625923/arduino-programmer/blob/main//png/fix.png)
 
 ### Bugs
 
