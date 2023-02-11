@@ -61,7 +61,7 @@ The usage is shown in follow pictures
 
 ### Bugs
 
-After erase and load command, there is some error the first line in dump command output [bugs](https://github.com/2076625923/arduino-programmer/blob/main//png/bug.png)
+After erase and load command, there is some error the first line in dump command output [bugs](https://github.com/2076625923/arduino-programmer/blob/main//png/bugs.png)
 
 ### Update
 
