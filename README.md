@@ -14,7 +14,7 @@ It can program the 28c256 eeprom chip perfectly right now !!!
 
 The schematic is very simple, it just consists of two 74hc595 chip, you can even build it on breadboard
 
-![image](sch/sch.png)
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/sch/sch.png" width="500" height="300">    
 
 #### Second Part (Software)
 
@@ -32,7 +32,7 @@ There are two other commands write and erase
 
 0e00000010 --> erase 0x0010 bytes from orginal address 0x0000, the result is read-after-erase.png
 
-<img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="400" height="150">                                       <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="400" height="150"/>
+<img src="https://github.com/2076625923/arduino-programmer/blob/main/png/write.png" width="400" height="150">                                           <img src="https://github.com/2076625923/arduino-programmer/blob/main/png/erase.png" width="400" height="150">
 
 ##### C program
 
@@ -62,7 +62,7 @@ erase 0020 0100   ----> erase 0x0100 bytes from orginal address 0x0020
 
 load 0100 a.bin   ----> write a.bin to at28c256 from orginal address 0x0100
 
-[more usage](png/fix.png)
+[more usage](https://github.com/2076625923/arduino-programmer/blob/main/png/fix.png)
 
 ### Bugs
 
