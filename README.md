@@ -43,9 +43,9 @@ For example, we have to write bytes manually, we can't burn a binary file to 28c
 So I create the unopro.c to read binary file from PC, then send data to arduino uno to complete the program progress
 
 ###### compile
-
+```
 gcc unopro.c -o unoPro
-
+```
 ###### connect
 
 unoPro   9600   /dev/ttyACM0
