@@ -164,7 +164,10 @@ void loop(){
 
           // read some bytes
           ReadPage(orga, size);
-          Serial.print("Done!");
+          // print out read information
+          char buf[60];
+          sprintf(buf, "Read from 0x%04x to 0x%04x, %d bytes, Done!", orga, orga+size, size);
+          Serial.println(buf);
 
           break;
         
